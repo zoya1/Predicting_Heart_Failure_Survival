@@ -22,11 +22,11 @@ heart_failure_clinical_records_dataset.csv :Dataset was loaded to pandas datafra
  
 ### Exploratory Data Analysis
 
-<img src = "Images/age_dist.png" >
+<img src = "Images/age_dist.PNG" >
 
-<img src = "Images/death_event_count.png" >
+<img src = "Images/death_event_count.PNG" >
 
-<img src = "Images/dia_bp_smo.png" >
+<img src = "Images/dia_bp_smo.PNG" >
 
 Observations:
 * Age distribution for most patients was between 40 and 70. Death event ocurred more among patient of old ages.
@@ -35,7 +35,7 @@ Observations:
 * No association between gender and death event. 
 * Increase of death event was noted among patients who had ejection fraction of 30% or less. 
 
-<img src = "Images/corr_matrix.png" >
+<img src = "Images/corr_matrix.PNG" >
 
 ### Model Evaluation AND Best Model Selection
 
@@ -49,16 +49,16 @@ Numeric variables were scaled using MinMaxScaler. Data was then split into train
 * Random Forest : GridSearchCV was used to hypertune and got F1 score of 70% and accuracy of 84%. There were 4 False positives.
 * Gradient Boosting: GridSearchCV was used to hypertune and got F1 score of 67% and accuracy of 80%.
 
-<img src = "Images/cm_RF.png" >
-<img src = "Images/classific.png" >
-<img src = "Images/AUC.png" >
+<img src = "Images/cm_RF.PNG" >
+<img src = "Images/classific.PNG" >
+<img src = "Images/AUC.PNG" >
 
 #### Selecting the Best model
 
  Random forest model gave the best F1 score of 70%, highest accuracy of 84 and also had best AUC value. Hence it was selected as the best model.
  Feature importance was computed using random forest classifier and important variables were ploted.
  
- <img src = "Images/feature_imp.png" >
+ <img src = "Images/feature_imp.PNG" >
  
  ### Conclusion:
  
