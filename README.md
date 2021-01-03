@@ -22,9 +22,7 @@ heart_failure_clinical_records_dataset.csv :Dataset was loaded to pandas datafra
  
 ### Exploratory Data Analysis
 
-<img src = "Images/age_dist.PNG" >
-
-<img src = "Images/death_event_count.PNG" >
+<img src = "Images/age_dist.PNG" >                                               <img src = "Images/death_event_count.PNG" >
 
 <img src = "Images/dia_bp_smo.PNG" >
 
