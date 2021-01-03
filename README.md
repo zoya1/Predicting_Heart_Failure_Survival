@@ -20,4 +20,11 @@ heart_failure_clinical_records_dataset.csv :Dataset was loaded to pandas datafra
  
 ### Exploratory Data Analysis
 
+Observations:
+* age of most patients was between 40 and 70.  Among that, Patients who died were on higher range. 
+* No significant difference between diabetic or non diabetic patient when related with death event.
+* Likewise smoking and High blood pressure showed no significant association with Death event.
+* No association be gender and death event.
+* Increase of death event was noted among patients who had ejection fraction of 30% or less and serum creatinine.
+
 
