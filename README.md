@@ -11,7 +11,7 @@ Not all conditions that lead to heart failure can be reversed, but treatments if
 Dataset of 299 patients and 13 features was chosen for this study. Machine Learning classifiers were applied to predict patient survival and rank the features corresponding to the most important risk factors.
 
 Death event feature was the target in this binary classification study, suggested if the patient survived or died before the end of the follow up time, which was 130 days on average.  
-In the dataset, patients those were alive (death event = 0) were 203, while the patients who were dead (death event = 1) were 96 constituting 67.89% and 32.11% respectively. 
+In the dataset, patients those were alive (death event = 0) were 203, while the patients who were dead (death event = 1) were 96 constituting 67.89% and 32.11% of total dataset respectively. 
 
 ### Data Collection
 
