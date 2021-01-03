@@ -48,6 +48,7 @@ Numeric variables were scaled using MinMaxScaler. Data was then split into train
 * Gradient Boosting: GridSearchCV was used to hypertune and got F1 score of 67% and accuracy of 80%.
 
 <img src = "Images/cm_RF.PNG" >                                                  <img src = "Images/classific.PNG" >
+
 <img src = "Images/AUC.PNG" >
 
 #### Selecting the Best model
