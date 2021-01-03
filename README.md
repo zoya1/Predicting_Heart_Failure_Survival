@@ -1,5 +1,7 @@
 # Predicting Heart Failure Survival
 
+<img src = "Images/image1.png" >
+
 ### Problem Definition
 
 Heart failure, also known as congestive heart failure, occurs when our heart muscle doesn't pump blood as well as it should. Its  one of the leading cause of death globally, taking estimated 17 million lives each year. Certain conditions, such as narrowed arteries in our heart (coronary artery disease) or high blood pressure, gradually leave your heart too weak or stiff to fill and pump efficiently.
