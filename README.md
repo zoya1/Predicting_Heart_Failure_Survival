@@ -35,6 +35,12 @@ Observations:
 
 <img src = "Images/corr_matrix.PNG" >
 
+Heat map summary:
+
+* Time, Ejection fraction showed negative correlation.
+* Age,serum creatinine and high blood pressure showed positive correlation.
+* Diabetes, platelets, sex, smoking variables did not show any correlation.
+
 ### Model Evaluation AND Best Model Selection
 
 Numeric variables were scaled using MinMaxScaler. Data was then split into train and test data for model creation and evaluation process. Evaluation metric we chose were Accuracy score, F1 score and AUC value.
