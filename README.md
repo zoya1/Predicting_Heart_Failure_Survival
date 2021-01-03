@@ -29,7 +29,7 @@ Observations:
 
 ### Model Evaluation AND Best Model Selection
 
-Numeric variables were scaled using MinMaxScaler. Data was then split into train and test data for model creation and evaluation process. Evaluation metric we chose were Accuracy score and F1 score.
+Numeric variables were scaled using MinMaxScaler. Data was then split into train and test data for model creation and evaluation process. Evaluation metric we chose were Accuracy score, F1 score and AUC value.
 
  #### Baseline
 * Logistic Regression baseline:  Linear Regression model with default parameter was used to get the base line prediction. 
@@ -39,4 +39,20 @@ Numeric variables were scaled using MinMaxScaler. Data was then split into train
 * Random Forest : GridSearchCV was used to hypertune and got F1 score of 70% and accuracy of 84%. There were 4 False positives.
 * Gradient Boosting: GridSearchCV was used to hypertune and got F1 score of 67% and accuracy of 80%.
 
+#### Selecting the Best model
+ Random forest model gave the best F1 score of 70%, highest accuracy of 84 and also had best AUC value. Hence it was selected as the best model.
+ Feature importance was computed using random forest classifier and important variables were ploted.
+ 
+ 
+ ### Conclusion:
+ 
+In machine learning our goal is to minimize Type I (FP) and Type II errors(FN).In an ideal case, a perfect model should have none of these errors. However practically no error is impossible and depending on the context we handle these errors differently. In our context, with the best model, we still had 4 FP cases and 8 FN cases. We had accuracy of 85%, recall of 64% and F1 score 72%.
 
+Our best model would be the one with high specificity and least False Positive Rate which would minimize the possibility of missing patients who need precautionary measures or prophylaxis for heart failure.
+
+Addition of additional features and additional data might improve model predictions for future studies.
+
+### References:
+
+1. https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5
+2.https://www.analyticsvidhya.com/blog/2020/09/precision-recall-machine-learning/
