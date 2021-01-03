@@ -21,10 +21,22 @@ heart_failure_clinical_records_dataset.csv :Dataset was loaded to pandas datafra
 ### Exploratory Data Analysis
 
 Observations:
-* age of most patients was between 40 and 70.  Among that, Patients who died were on higher range. 
+* Age distribution for most patients was between 40 and 70. Death event ocurred more among patient of old ages.
 * No significant difference between diabetic or non diabetic patient when related with death event.
 * Likewise smoking and High blood pressure showed no significant association with Death event.
-* No association be gender and death event.
-* Increase of death event was noted among patients who had ejection fraction of 30% or less and serum creatinine.
+* No association between gender and death event. 
+* Increase of death event was noted among patients who had ejection fraction of 30% or less. 
+
+### Model Evaluation AND Best Model Selection
+
+Numeric variables were scaled using MinMaxScaler. Data was then split into train and test data for model creation and evaluation process. Evaluation metric we chose were Accuracy score and F1 score.
+
+ #### Baseline
+* Logistic Regression baseline:  Linear Regression model with default parameter was used to get the base line prediction. 
+
+ #### Models
+* Logistic Regression (with Hyperparameter tuning): Explored GridSearchCV to find best parameters and got F1 score of 59% and accuracy of 77%. There were 7 False positives.
+* Random Forest : GridSearchCV was used to hypertune and got F1 score of 70% and accuracy of 84%. There were 4 False positives.
+* Gradient Boosting: GridSearchCV was used to hypertune and got F1 score of 67% and accuracy of 80%.
 
 
