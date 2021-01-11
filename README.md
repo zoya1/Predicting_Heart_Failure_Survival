@@ -68,7 +68,7 @@ Numeric variables were scaled using MinMaxScaler. Data was then split into train
  
 In machine learning our goal is to minimize Type I (FP) and Type II errors(FN).In an ideal case, a perfect model should have none of these errors. However practically no error is impossible and depending on the context we handle these errors differently. In our context, with the best model, we still had 4 FP cases and 8 FN cases. We had accuracy of 85%, recall of 64% and F1 score 72%.
 
-Our best model would be the one with high specificity and least False Positive Rate which would minimize the possibility of missing patients who need precautionary measures or prophylaxis for heart failure.
+In this scenario, labelling a patient as dead is more concerning than labelling patient as alive. If the patient is labelled as dead by the prediction, this patient would miss treatment opportunities and hence jeopardizing his/her life. Hence, our best model would be the one with least False Positive Rate which would minimize the possibility of missing patients who need precautionary measures or prophylaxis for heart failure.
 
 Addition of additional features and additional data might improve model predictions for future studies.
 
